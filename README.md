@@ -1,10 +1,11 @@
-# Tamia Mi Spa Website
+# Tamiami Spa Website
+(tamiamispa.com)
 
-This repository contains the preliminary start for the Tamia Mi Spa website (tamiamispa.com).
+This repository contains the preliminary start for the Tamiami Spa website (tamiamispa.com).
 
 ## Overview
 
-This is the initial development version of the Tamia Mi Spa website, which will showcase spa services, treatments, and booking information for potential clients.
+This is the initial development version of the Tamiami Spa website, which will showcase spa services, treatments, and booking information for potential clients.
 
 ## Current Status
 
@@ -24,4 +25,4 @@ For more information about this project, please contact [contact information].
 
 ## License
 
-All rights reserved © Tamia Mi Spa 
+All rights reserved © Tamiami Spa 
