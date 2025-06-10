@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamiami Spa - Miami & Ft. Lauderdale</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      background-color: rgba( 248, 249, 250, 0.95) !important;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1030;
+    }
+    .navbar .navbar-brand {
+      font-family: "Helvetica Neue", system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Liberation Sans",Arial,sans-serif;
+
+    }
+    .social-icons a {
+      color: #000;
+      margin: 0 10px;
+      font-size: 1.2rem;
+    }
+    .hero {
+      background: url('img/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg') no-repeat center center;
+      background-size: cover;
+      height: 95vh;
+      display: flex;
+ 
+      text-shadow: 0px 0px 45px rgba(255, 255, 255, 1);
+      margin-bottom:3vh
+    }
+    .hero h1 {
+      
+      animation: fadeInDown 1.2s ease-in-out;
+    }
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+ 
+    .feature-icon {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color:#ccc;
+    }
+    .parallax-section {
+      background-attachment: fixed;
+      background-size: cover;
+      color: white;
+      padding: 80px 0;
+    }
+    .footer {
+    
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header with Logo and Social Links -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-light text-uppercase" href="#">MiamiTami Spa</a>
+      <div class="d-flex ms-auto social-icons">
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="mailto:tamiami@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero text-center row align-items-center lead">
+    <div class="mt-0 mb-5 pb-5">
+      <h1 class="display-1 fw-lighter text-body-tertiary">Luxury Wellness</h1>
+      <p class="lead pb-5"">Miami & Ft. Lauderdale</p>
+    </div>
+  </header>
+
+  <!-- Service Highlights -->
+  <section class="container py-5 text-center text-body-secondary fw-lighter">
+    <h2 class="mb-4 display-4 py-5 fw-lighter">Our Signature Spa Services</h2>
+    <div class="row lead gy-5">
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="fas fa-spa"></i></div>
+        <h5 class="fs-3 fw-lighter">Massage Therapy</h5>
+        <p>Relax and rejuvenate with our signature massages including Swedish, Deep Tissue, and Aromatherapy.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+        <h5 class="fs-3 fw-lighter"</h5>Facials & Skincare</h5>
+        <p>Indulge in custom facials, LED therapy, and peels that leave your skin glowing and youthful.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="fas fa-water"></i></div>
+        <h5 class="fs-3 fw-lighter"</h5>Hydrotherapy</h5>
+        <p>Enjoy therapeutic hydrotherapy baths and infrared sauna treatments to soothe body and mind.</p>
+      </div>
+    </div>
+    <div class="row mt-4 pb-5 gy-5 lead">
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="fas fa-hands-wash"></i></div>
+        <h5 class="fs-3 fw-lighter"</h5>Body Treatments</h5>
+        <p>Wraps, scrubs, and detoxifying rituals designed to purify and renew your body.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="fas fa-scissors"></i></div>
+        <h5 class="fs-3 fw-lighter"</h5>Hair & Beauty</h5>
+        <p>Professional styling, color, and luxurious treatments to refresh your look.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="fas fa-bath"></i></div>
+        <h5 class="fs-3 fw-lighter"</h5>Luxury Packages</h5>
+        <p>Full-day or half-day retreats curated for total relaxation and indulgence.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer pt-4 bg-body-tertiary">
+    <div class="container text-secondary">
+      <p>&copy; 2025 Tamiami Spa. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
